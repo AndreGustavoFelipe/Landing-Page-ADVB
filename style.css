@@ -138,7 +138,7 @@ html, body{
     align-items: center;
     text-align: justify;
     
-    width: 90%;
+    width: 80%;
     padding: 20px;
     overflow-y: hidden;
 
@@ -146,7 +146,7 @@ html, body{
     -webkit-backdrop-filter: blur(10px);
     background-color: rgba(255, 255, 255, 0.10);
 
-    border-radius: 40px;
+    border-radius: 30px;
 
     transition: 1s ease-in-out;
 
@@ -292,7 +292,7 @@ html, body{
     }
 
     .footer img{
-        height: 63px;
+        height: 7vh;
         width: 100%;
     }
 
@@ -305,6 +305,10 @@ html, body{
         font-size: 1.7vh;
         
         margin-right: 10px;
+    }
+
+    .divDireita ul{
+        list-style: none;
     }
 
     .divCentroFooter{
