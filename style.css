@@ -183,6 +183,8 @@ html, body{
 
     padding: 30px;
 
+    user-select: none;
+
 }
 
 .divConteudoParagrafo p{
