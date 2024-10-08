@@ -268,16 +268,14 @@ html, body{
 
     /* AJUSTANDO CONTEUDO DA PAGINA */
     .sectionConteudo{
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+        gap: 5vh;
     }
     
     .divConteudo{
-        transform: scale(0.9);    
-    }
-
-    .divConteudo:hover{
-        transform: scale(1);    
+        width: 90%;
     }
 
     .divConteudoParagrafo{
@@ -292,13 +290,14 @@ html, body{
     }
 
     .footer img{
-        height: 7vh;
         width: 100%;
     }
 
     .divLogo{
         margin-left: 0;
         padding: 10px;
+
+        width: 40vw;
     }
 
     .divDireita{
@@ -313,6 +312,10 @@ html, body{
 
     .divCentroFooter{
         font-size: 1.2vh;
+
+        width: 50%;
+
+        text-wrap: wrap;
     }
 
 }
