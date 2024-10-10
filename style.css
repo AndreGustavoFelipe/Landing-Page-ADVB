@@ -68,6 +68,8 @@ html, body{
 
 .divCentroNav a{
 
+    font-size: 1.8vh;
+
     color: white;
     text-decoration: none;
 
@@ -78,7 +80,7 @@ html, body{
 }
 
 .divCentroNav a:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 .divRedesSociais{
@@ -146,7 +148,7 @@ html, body{
     -webkit-backdrop-filter: blur(10px);
     background-color: rgba(255, 255, 255, 0.10);
 
-    border-radius: 30px;
+    border-radius: 40px;
 
     transition: 1s ease-in-out;
 
@@ -179,7 +181,7 @@ html, body{
     background-color: #FFFFFF;
     text-wrap: wrap;    
 
-    border-radius: 40px;
+    border-radius: 20px;
 
     padding: 30px;
 
@@ -266,6 +268,10 @@ html, body{
         margin-right: 50px;      
     }
 
+    .divCentroNav a{
+        font-size: 2.5vh;
+    }
+
     /* AJUSTANDO CONTEUDO DA PAGINA */
     .sectionConteudo{
         padding-top: 20px;
@@ -276,10 +282,16 @@ html, body{
     
     .divConteudo{
         width: 90%;
+        padding: 10px;
     }
 
     .divConteudoParagrafo{
-        padding: 17px;
+        padding: 15px;
+        font-size: 3vh;
+    }
+
+    .divConteudoParagrafo p{
+        font-size: 2.5vh;
     }
 
     /* AJUSTANDO RODAPÉ */
