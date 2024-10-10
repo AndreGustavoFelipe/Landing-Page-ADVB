@@ -274,8 +274,8 @@ html, body{
 
     /* AJUSTANDO CONTEUDO DA PAGINA */
     .sectionConteudo{
-        padding-top: 20px;
-        padding-bottom: 20px;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
 
         gap: 5vh;
     }
