@@ -400,7 +400,7 @@ html, body{
         margin-left: 0;
         padding: 10px;
 
-        width: 40vw;
+        width: 30vw;
     }
 
     .divDireita{
@@ -414,9 +414,9 @@ html, body{
     }
 
     .divCentroFooter{
-        font-size: 1.2vh;
+        font-size: 1.8vh;
 
-        width: 50%;
+        width: 100%;
 
         text-wrap: wrap;
     }   
@@ -425,5 +425,89 @@ html, body{
 
 @media (min-width: 769px) and (max-width: 1250px){
 
+    /* AJUSTANDO O CORPO DA PAGINA */
+    html, body{
+        height: auto;
+        width: auto;
+
+        overflow-y: scroll;
+    }
+
+    /* AJUSTANDO BARRA DE NAVEGAÇÃO */
+    .navbar{
+        height: 10vh;
+    }
+
+    .divRedesSociais{
+        margin-right: 50px;      
+    }
+
+    .divRedesSociais i{
+        font-size: 4vh;    
+    }
+
+    .divCentroNav a{
+        font-size: 2.5vh;
+    }
+
+    /* AJUSTANDO CONTEUDO DA PAGINA */
+    .sectionConteudo{
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+
+        gap: 5vh;
+    }
+
+    .divConteudo{
+        width: 90%;
+        padding: 10px;
+    }
+
+    .divConteudoParagrafo{
+        padding: 15px;
+        font-size: 3vh;
+    }
+
+    .divConteudoParagrafo p{
+        font-size: 2.5vh;
+    }
+
+    /* AJUSTANDO RODAPÉ */
+    .footer{
+        height: 22vh;
+
+        gap: 10px;
+    }
+
+    .footer img{
+        width: 100%;
+    }
+
+    .divLogo{
+        margin-left: 0;
+        padding: 10px;
+
+        width: 40vw;
+    }
+
+    .divDireita{
+        font-size: 2vh;
+        margin-right: 10px;
+    }
+
+    .divDireita ul{
+        list-style: none;
+    }
+
+    .divCentroFooter{
+        font-size: 2vh;
+
+        display: flex;
+        justify-content: center;
+
+        width: 70%;
+
+        text-wrap: wrap;
+    }   
     
 }
